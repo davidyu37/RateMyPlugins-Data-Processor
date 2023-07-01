@@ -1,0 +1,21 @@
+{
+  "name": "ratemyplugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Yu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.100",
+    "sklearn": "^0.3.0",
+    "zod": "^3.21.4"
+  }
+}
